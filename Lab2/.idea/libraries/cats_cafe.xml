@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cats-cafe">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/cats-cafe.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

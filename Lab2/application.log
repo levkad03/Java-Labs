@@ -1,0 +1,148 @@
+2025-03-03T20:56:34.923+01:00  INFO 69185 --- [main] org.example.Main                         : Starting Main using Java 21.0.5 with PID 69185 (/Users/mborodin/Projects/springbootdatajpa-example/target/classes started by mborodin in /Users/mborodin/Projects/springbootdatajpa-example)
+2025-03-03T20:56:34.923+01:00  INFO 69185 --- [main] org.example.Main                         : No active profile set, falling back to 1 default profile: "default"
+2025-03-03T20:56:35.104+01:00  INFO 69185 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-03T20:56:35.123+01:00  INFO 69185 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interfaces.
+2025-03-03T20:56:35.287+01:00  INFO 69185 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-03-03T20:56:35.290+01:00  INFO 69185 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-03T20:56:35.290+01:00  INFO 69185 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2025-03-03T20:56:35.315+01:00  INFO 69185 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-03T20:56:35.315+01:00  INFO 69185 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 377 ms
+2025-03-03T20:56:35.366+01:00  INFO 69185 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-03T20:56:35.387+01:00  INFO 69185 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2025-03-03T20:56:35.388+01:00  INFO 69185 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-03-03T20:56:35.429+01:00  INFO 69185 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-03-03T20:56:35.477+01:00  INFO 69185 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-03T20:56:35.484+01:00  INFO 69185 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-03T20:56:35.695+01:00  INFO 69185 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@68e5c7ae
+2025-03-03T20:56:35.696+01:00  INFO 69185 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-03T20:56:35.769+01:00  INFO 69185 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-03-03T20:56:35.974+01:00  INFO 69185 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-03-03T20:56:35.984+01:00  INFO 69185 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-03T20:56:36.059+01:00  WARN 69185 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.example.repository.CatRepository
+2025-03-03T20:56:36.089+01:00  INFO 69185 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-03-03T20:56:36.264+01:00  WARN 69185 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-03T20:56:36.301+01:00 DEBUG 69185 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-03T20:56:36.328+01:00 DEBUG 69185 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2025-03-03T20:56:36.337+01:00 DEBUG 69185 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-03-03T20:56:36.340+01:00 DEBUG 69185 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-03T20:56:36.385+01:00  INFO 69185 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-03-03T20:56:36.390+01:00  INFO 69185 --- [main] org.example.Main                         : Started Main in 1.598 seconds (process running for 1.837)
+2025-03-03T20:56:42.691+01:00  INFO 69185 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-03T20:56:42.691+01:00  INFO 69185 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-03T20:56:42.691+01:00 DEBUG 69185 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-03-03T20:56:42.691+01:00 DEBUG 69185 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-03-03T20:56:42.691+01:00 DEBUG 69185 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-03-03T20:56:42.691+01:00 DEBUG 69185 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3c1ef806
+2025-03-03T20:56:42.692+01:00 DEBUG 69185 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@60e5b3a8
+2025-03-03T20:56:42.692+01:00 DEBUG 69185 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-03-03T20:56:42.692+01:00  INFO 69185 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-03T20:56:42.695+01:00 DEBUG 69185 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/cats", parameters={}
+2025-03-03T20:56:42.699+01:00 DEBUG 69185 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.example.controller.CatController#getAllCats(CatBehaviour)
+2025-03-03T20:56:42.704+01:00  WARN 69185 --- [http-nio-8080-exec-1] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.example.controller.CatController
+2025-03-03T20:56:42.741+01:00 DEBUG 69185 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-03T20:56:42.741+01:00 DEBUG 69185 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[]]
+2025-03-03T20:56:42.746+01:00 DEBUG 69185 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-03-03T20:56:48.951+01:00 DEBUG 69185 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/cats", parameters={}
+2025-03-03T20:56:48.952+01:00 DEBUG 69185 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.example.controller.CatController#createCat(Cat)
+2025-03-03T20:56:48.978+01:00 DEBUG 69185 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Cat{name='Oscar', behaviour=CALM, birthday=2024-03-25T10:44:11.716790Z}]
+2025-03-03T20:56:48.979+01:00  INFO 69185 --- [http-nio-8080-exec-2] org.example.service.CatService           : Creating a cat. Cat: Cat{name='Oscar', behaviour=CALM, birthday=2024-03-25T10:44:11.716790Z}
+2025-03-03T20:56:49.005+01:00  INFO 69185 --- [http-nio-8080-exec-2] org.example.service.CatService           : Cat 'Oscar' is created.
+2025-03-03T20:56:49.012+01:00 DEBUG 69185 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-03T20:56:49.012+01:00 DEBUG 69185 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [Cat{name='Oscar', behaviour=CALM, birthday=2024-03-25T10:44:11.716790Z}]
+2025-03-03T20:56:49.013+01:00 DEBUG 69185 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2025-03-03T20:57:24.823+01:00 DEBUG 69185 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/cats", parameters={}
+2025-03-03T20:57:24.824+01:00 DEBUG 69185 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.example.controller.CatController#createCat(Cat)
+2025-03-03T20:57:24.825+01:00 DEBUG 69185 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Cat{name='Jam', behaviour=CALM, birthday=2024-03-25T10:44:11.716790Z}]
+2025-03-03T20:57:24.825+01:00  INFO 69185 --- [http-nio-8080-exec-3] org.example.service.CatService           : Creating a cat. Cat: Cat{name='Jam', behaviour=CALM, birthday=2024-03-25T10:44:11.716790Z}
+2025-03-03T20:57:24.829+01:00  INFO 69185 --- [http-nio-8080-exec-3] org.example.service.CatService           : Cat 'Jam' is created.
+2025-03-03T20:57:24.830+01:00 DEBUG 69185 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-03T20:57:24.830+01:00 DEBUG 69185 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [Cat{name='Jam', behaviour=CALM, birthday=2024-03-25T10:44:11.716790Z}]
+2025-03-03T20:57:24.831+01:00 DEBUG 69185 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2025-03-03T20:57:30.749+01:00 DEBUG 69185 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/cats", parameters={}
+2025-03-03T20:57:30.749+01:00 DEBUG 69185 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.example.controller.CatController#createCat(Cat)
+2025-03-03T20:57:30.750+01:00 DEBUG 69185 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Cat{name='Candy', behaviour=CALM, birthday=2024-03-25T10:44:11.716790Z}]
+2025-03-03T20:57:30.750+01:00  INFO 69185 --- [http-nio-8080-exec-4] org.example.service.CatService           : Creating a cat. Cat: Cat{name='Candy', behaviour=CALM, birthday=2024-03-25T10:44:11.716790Z}
+2025-03-03T20:57:30.753+01:00  INFO 69185 --- [http-nio-8080-exec-4] org.example.service.CatService           : Cat 'Candy' is created.
+2025-03-03T20:57:30.754+01:00 DEBUG 69185 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-03T20:57:30.754+01:00 DEBUG 69185 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [Cat{name='Candy', behaviour=CALM, birthday=2024-03-25T10:44:11.716790Z}]
+2025-03-03T20:57:30.755+01:00 DEBUG 69185 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2025-03-03T20:57:36.645+01:00 DEBUG 69185 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/cats", parameters={}
+2025-03-03T20:57:36.645+01:00 DEBUG 69185 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.example.controller.CatController#createCat(Cat)
+2025-03-03T20:57:36.646+01:00 DEBUG 69185 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Cat{name='Honey', behaviour=CALM, birthday=2024-03-25T10:44:11.716790Z}]
+2025-03-03T20:57:36.646+01:00  INFO 69185 --- [http-nio-8080-exec-5] org.example.service.CatService           : Creating a cat. Cat: Cat{name='Honey', behaviour=CALM, birthday=2024-03-25T10:44:11.716790Z}
+2025-03-03T20:57:36.649+01:00  INFO 69185 --- [http-nio-8080-exec-5] org.example.service.CatService           : Cat 'Honey' is created.
+2025-03-03T20:57:36.651+01:00 DEBUG 69185 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-03T20:57:36.651+01:00 DEBUG 69185 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [Cat{name='Honey', behaviour=CALM, birthday=2024-03-25T10:44:11.716790Z}]
+2025-03-03T20:57:36.651+01:00 DEBUG 69185 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2025-03-03T20:57:57.239+01:00 DEBUG 69185 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/cats", parameters={}
+2025-03-03T20:57:57.239+01:00 DEBUG 69185 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.example.controller.CatController#createCat(Cat)
+2025-03-03T20:57:57.240+01:00 DEBUG 69185 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Cat{name='Chocolate', behaviour=CALM, birthday=2024-03-25T10:44:11.716790Z}]
+2025-03-03T20:57:57.240+01:00  INFO 69185 --- [http-nio-8080-exec-8] org.example.service.CatService           : Creating a cat. Cat: Cat{name='Chocolate', behaviour=CALM, birthday=2024-03-25T10:44:11.716790Z}
+2025-03-03T20:57:57.244+01:00  INFO 69185 --- [http-nio-8080-exec-8] org.example.service.CatService           : Cat 'Chocolate' is created.
+2025-03-03T20:57:57.245+01:00 DEBUG 69185 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-03T20:57:57.245+01:00 DEBUG 69185 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [Cat{name='Chocolate', behaviour=CALM, birthday=2024-03-25T10:44:11.716790Z}]
+2025-03-03T20:57:57.246+01:00 DEBUG 69185 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2025-03-03T20:58:29.768+01:00 DEBUG 69185 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/cats", parameters={}
+2025-03-03T20:58:29.768+01:00 DEBUG 69185 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.example.controller.CatController#createCat(Cat)
+2025-03-03T20:58:29.769+01:00 DEBUG 69185 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Cat{name='Cream', behaviour=CALM, birthday=2024-03-25T10:44:11.716790Z}]
+2025-03-03T20:58:29.769+01:00  INFO 69185 --- [http-nio-8080-exec-10] org.example.service.CatService           : Creating a cat. Cat: Cat{name='Cream', behaviour=CALM, birthday=2024-03-25T10:44:11.716790Z}
+2025-03-03T20:58:29.770+01:00  INFO 69185 --- [http-nio-8080-exec-10] org.example.service.CatService           : Cat 'Cream' can not be created. Max supported amount of cats: 5.
+2025-03-03T20:58:29.772+01:00 DEBUG 69185 --- [http-nio-8080-exec-10] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 409 CONFLICT]
+2025-03-03T20:58:29.772+01:00 DEBUG 69185 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 409 CONFLICT
+2025-03-03T20:58:29.775+01:00 DEBUG 69185 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/error", parameters={}
+2025-03-03T20:58:29.776+01:00 DEBUG 69185 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-03-03T20:58:29.779+01:00 DEBUG 69185 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-03T20:58:29.779+01:00 DEBUG 69185 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Mon Mar 03 20:58:29 CET 2025, status=409, error=Conflict, path=/cats}]
+2025-03-03T20:58:29.783+01:00 DEBUG 69185 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 409
+2025-03-03T20:58:34.295+01:00 DEBUG 69185 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/cats", parameters={}
+2025-03-03T20:58:34.295+01:00 DEBUG 69185 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.example.controller.CatController#createCat(Cat)
+2025-03-03T20:58:34.296+01:00 DEBUG 69185 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Cat{name='Cream', behaviour=CALM, birthday=2024-03-25T10:44:11.716790Z}]
+2025-03-03T20:58:34.296+01:00  INFO 69185 --- [http-nio-8080-exec-2] org.example.service.CatService           : Creating a cat. Cat: Cat{name='Cream', behaviour=CALM, birthday=2024-03-25T10:44:11.716790Z}
+2025-03-03T20:58:34.297+01:00  INFO 69185 --- [http-nio-8080-exec-2] org.example.service.CatService           : Cat 'Cream' can not be created. Max supported amount of cats: 5.
+2025-03-03T20:58:34.297+01:00 DEBUG 69185 --- [http-nio-8080-exec-2] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 409 CONFLICT]
+2025-03-03T20:58:34.297+01:00 DEBUG 69185 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 409 CONFLICT
+2025-03-03T20:58:34.297+01:00 DEBUG 69185 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/error", parameters={}
+2025-03-03T20:58:34.298+01:00 DEBUG 69185 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-03-03T20:58:34.298+01:00 DEBUG 69185 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-03T20:58:34.298+01:00 DEBUG 69185 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Mon Mar 03 20:58:34 CET 2025, status=409, error=Conflict, path=/cats}]
+2025-03-03T20:58:34.299+01:00 DEBUG 69185 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 409
+2025-03-03T20:58:38.398+01:00 DEBUG 69185 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/cats", parameters={}
+2025-03-03T20:58:38.398+01:00 DEBUG 69185 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.example.controller.CatController#getAllCats(CatBehaviour)
+2025-03-03T20:58:38.402+01:00 DEBUG 69185 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-03T20:58:38.403+01:00 DEBUG 69185 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Cat{name='Oscar', behaviour=CALM, birthday=2024-03-25T10:44:11.716Z}, Cat{name='Jam', behaviour=CAL (truncated)...]
+2025-03-03T20:58:38.403+01:00 DEBUG 69185 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-03-03T20:59:08.979+01:00  INFO 69185 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-03T20:59:08.981+01:00  INFO 69185 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-03T20:59:08.982+01:00  INFO 69185 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-06T13:10:50.384+02:00  INFO 14000 --- [main] org.example.Main                         : Starting Main using Java 22.0.2 with PID 14000 (D:\Java\Deep Java\Lab2\cats-cafe.jar started by levka in D:\Java\Deep Java\Lab2)
+2025-03-06T13:10:50.388+02:00  INFO 14000 --- [main] org.example.Main                         : No active profile set, falling back to 1 default profile: "default"
+2025-03-06T13:10:51.429+02:00  INFO 14000 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-06T13:10:51.506+02:00  INFO 14000 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interfaces.
+2025-03-06T13:10:52.101+02:00  INFO 14000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-03-06T13:10:52.108+02:00  INFO 14000 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-06T13:10:52.108+02:00  INFO 14000 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2025-03-06T13:10:52.191+02:00  INFO 14000 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-06T13:10:52.191+02:00  INFO 14000 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1708 ms
+2025-03-06T13:10:52.446+02:00  INFO 14000 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-06T13:10:52.498+02:00  INFO 14000 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2025-03-06T13:10:52.499+02:00  INFO 14000 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-03-06T13:10:52.619+02:00  INFO 14000 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-03-06T13:10:52.775+02:00  INFO 14000 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-06T13:10:52.793+02:00  INFO 14000 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-06T13:10:52.906+02:00  INFO 14000 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@52350abb
+2025-03-06T13:10:52.909+02:00  INFO 14000 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-06T13:10:53.144+02:00  INFO 14000 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-03-06T13:10:53.631+02:00  INFO 14000 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-03-06T13:10:53.656+02:00  INFO 14000 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-06T13:10:53.891+02:00  WARN 14000 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.example.repository.CatRepository
+2025-03-06T13:10:53.956+02:00  INFO 14000 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-03-06T13:10:54.495+02:00  WARN 14000 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-06T13:10:54.690+02:00 DEBUG 14000 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-06T13:10:54.900+02:00 DEBUG 14000 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2025-03-06T13:10:54.932+02:00 DEBUG 14000 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-03-06T13:10:54.940+02:00 DEBUG 14000 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-06T13:10:55.131+02:00  INFO 14000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-03-06T13:10:55.148+02:00  INFO 14000 --- [main] org.example.Main                         : Started Main in 5.479 seconds (process running for 6.417)
+2025-03-06T13:11:03.196+02:00  INFO 14000 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-06T13:11:03.199+02:00  INFO 14000 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-06T13:11:03.202+02:00  INFO 14000 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
