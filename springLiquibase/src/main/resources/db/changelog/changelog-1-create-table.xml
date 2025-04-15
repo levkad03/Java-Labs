@@ -1,0 +1,17 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+<changeSet id="1" author="lev">
+    <createTable tableName="example_table">
+        <column name="id" type="INTEGER">
+            <constraints primaryKey="true" nullable="false"/>
+        </column>
+        <column name="short_text" type="VARCHAR(100)"/>
+        <column name="long_text" type="TEXT"/>
+        <column name="count" type="INTEGER"/>
+    </createTable>
+</changeSet>
+</databaseChangeLog>
